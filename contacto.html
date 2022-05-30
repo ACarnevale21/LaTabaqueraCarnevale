@@ -11,55 +11,74 @@
 </head>
 <body>
     <header>
-        <div class="suphead">
-            <div>
-                <input type="search"  placeholder="Buscar" name="" id="">
+        <div class="row">
+          <div class="col d-flex justify-content-center align-items-center">
+          <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" id="btnbuscar">Buscar</button>
+            </form>
+          </div>
+          <div class="col d-flex justify-content-center">
+          <div>
+            <a href="#"><img src="./img/logo tabaquera.png" alt="La Tabaqueria"/></a>
+          </div>
+          </div>
+          <div class="col d-flex justify-content-center align-items-center">
+          <div class="carro">
+            <div class="carro__a">
+              <a href="#"><h3 class="fs-5">CARRITO</h3></a>
             </div>
-            <div>
-                <a href="#"><img src="./img/logo tabaquera.png" alt="La Tabaqueria"></a>
+            <div class="login">
+              <a href="#"><h4 class="fs-5">CREAR CUENTA</h4></a>
+              <h4>|</h4>
+              <a href="#"><h4 class="fs-5">INICIAR SESION</h4></a>
             </div>
-            <div class="carro">
-                <div class="carro__a">
-                    <a href=""><h3>CARRITO</h3></a>
-                </div>    
-                <div class="login">
-                    <a href=""><h4>CREAR CUENTA</h4></a>
-                    <h4>|</h4>
-                    <a href=""><h4>INICIAR SESION</h4></a>
-                </div>
-                
+          </div>
+          </div>
+        </div>
+        <hr />
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid justify-content-end">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav align-items-center">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown"></li>
+              </ul>
             </div>
-
-        </div> 
-        <hr>   
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid justify-content-end">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                <ul class="navbar-nav align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>   
-        <hr>
-    </header>
+          </div>
+        </nav>
+        <hr />
+      </header>
     <main class="contacto">
         <div class="form_contact"> <!--Formulario de consulta-->
             <form action="" method="get" enctype="text/plain" class="formcont">

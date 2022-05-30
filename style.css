@@ -13,17 +13,25 @@
     align-items: center;
     padding: 0.1rem;
     }
-
+#btnbuscar:hover{
+    background-color: transparent;
+    color: black;
+}
 .login {
     display: flex;
 }
-.login h4, a {
+.login a {
     margin: auto auto;
     text-decoration: none;
     color: rgb(99, 99, 99);
 }
-.carro__a {
+.carro__a{
+    height: 3.125rem;
+    margin-bottom: 0.625rem;
+}
+.carro__a a {
     padding: 0rem 1rem;
+    text-decoration: none;
 }
 
 /*NAV BAR*/
@@ -151,12 +159,8 @@ nav ul li a {
     margin: 1rem;
     background-color: rgba(179, 169, 169, 0.41);
 }
-.nosotros h2{
-    font-size: 5vw;
-}
-.nosotros p{
-    font-size: 2vw;
-}
+
+
 
 /*SECCION PRODUCTOS*/
 .main__prod{
