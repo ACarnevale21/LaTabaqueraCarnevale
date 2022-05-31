@@ -79,37 +79,31 @@
         </nav>
         <hr />
       </header>
-    <main class="faq">
-        <div class="faq__cont" >
-            
-                <h3>¿Que metodo de pago aceptamos?</h3>
-            
-            
-                <p>Los metodos de pago que utilizamos son:</p>
-            
-            <div>
-                <ul>
-                    <li>Efectivo.</li>
-                    <li>Tarjeta Credito/Debito.</li>
-                </ul>
+    <main class="container-fluid mx-5">
+        <div class="row">
+          <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">¿Que metodo de pago aceptamos?</a>
+              <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Metodo de envio</a>
+              <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">¿Puedo retirar mi pedido?</a>
             </div>
+          </div>
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active fs-5" id="list-home" role="tabpanel" aria-labelledby="list-home-list"><p>Los metodos de pago que utilizamos son:</p>
+            
+                <div>
+                    <ul>
+                        <li>Efectivo.</li>
+                        <li>Tarjeta Credito/Debito.</li>
+                    </ul>
+                </div></div>
+              <div class="tab-pane fade fs-5" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"><p>Los envios se realizan las 24 horas.</p></div>
+              <div class="tab-pane fade fs-5" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"><p>Si. El pedido puede ser retirado hasta 5 dias habiles una vez realizada la compra</p></div>
+            </div>
+          </div>
         </div>
-        <div class="faq__cont">
-            
-                <h3>Metodo de envio</h3>
-            
-            
-                <p>Los envios se realizan las 24 horas.</p>
-            
-        </div>
-        <div class="faq__cont">
-            
-                <h3>¿Puedo retirar mi pedido?</h3>
-            
-            
-                <p>Si.El pedido puede ser retirado hasta 5 dias habiles una vez realizada la compra</p>
-            
-        </div>
+        
     </main>
     <footer>
         <hr>
